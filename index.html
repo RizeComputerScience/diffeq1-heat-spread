@@ -2976,7 +2976,7 @@ function bSliders() { return '<div class="hs-bs">' + [1, 2, 3, 4, 5].map(bRange)
 function page() {
   return header('Watching Heat Spread', [['#sec-one', 'One Mode'], ['#sec-two', 'Two Rates'], ['#sec-probe', 'The Probe'], ['#sec-missing', 'Missing Mode'], ['#sec-wiggly', 'Wiggly Start'], ['#sec-back', 'Back to the Reading']]) +
     '<main id="top">' + hero({ kicker: 'Differential Equations · Unit 12', title: 'Watching Heat Spread',
-      dek: 'Use this with Section 4.6 of Lebl’s Notes on Diffy Qs and with Separated Solutions and the Sine Modes. Build a starting temperature from five sine modes, press Play, and watch each mode shrink at its own rate.' }) +
+      dek: 'Use this with Section 4.6 of Lebl’s Notes on Diffy Qs and with the section Separated Solutions and the Sine Modes in the Unit 12 Reading Guide, Part 2. Build a starting temperature from five sine modes, press Play, and watch each mode shrink at its own rate.' }) +
 
     sec('sec-one', '1', 'One Sine, Shrinking', '') +
     prose('', ['A thin rod lies along `0 < x < π`, and its ends are held at temperature 0. Its diffusivity is `k = 1`, so mode `n` is `sin nx`, and it decays at rate `n^2`. A starting profile `f(x) = b_1 sin x + b_2 sin 2x + ⋯ + b_5 sin 5x` becomes']) +
@@ -3005,7 +3005,7 @@ function page() {
 
     sec('sec-back', '', 'Back to the Reading', '') +
     prose('', ['Compare [Example 4.6.1 in Lebl](' + LEBL + '), where a rod of length 1 starts as a hump. After a short time, its first term alone describes it.',
-      'Then return to Separated Solutions and the Sine Modes, and read its last section, The Modes Are Eigenvectors.']) +
+      'Then return to Separated Solutions and the Sine Modes in the Unit 12 Reading Guide, Part 2, and read its last two parts, The Modes Are Eigenvectors and Why Heat Erases Fine Detail First.']) +
     '</main>';
 }
 expose({ PRESETS: PRESETS, CP: CP, curB: curB, curT: curT, curJ: curJ, sizeOf: sizeOf, modeAt: modeAt, uAt: uAt, uxxAt: uxxAt, maxAbsU: maxAbsU, scaleOf: scaleOf,
