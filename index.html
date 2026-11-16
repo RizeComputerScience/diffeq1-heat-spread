@@ -2996,7 +2996,7 @@ function page() {
     explorer(3, probeRange_()) + col(blk('c2', c2HTML)) +
 
     sec('sec-missing', '4', 'When the First Mode Is Missing', '') +
-    prose('', ['Choose No First Mode. With no `sin x` term, the slowest mode present is `sin 2x`, and the middle of the rod stays at 0 the whole time. Then set `b_1 = 0.5` and play again. Zoom In as It Cools keeps the shape full height while the rod cools.']) +
+    prose('', ['Choose No First Mode. With no `sin x` term, the slowest mode present is `sin 2x`, and the middle of the rod stays at 0 the whole time. That is because this preset has only even modes, `sin 2x` and `sin 4x`, and every even mode is 0 at the middle, `x = F{π}{2}`. A third mode, `sin 3x`, is `−1` at the middle, so with `b_3` not 0 the middle would not stay at 0 even when `b_1 = 0`. Then set `b_1 = 0.5` and play again. Zoom In as It Cools keeps the shape full height while the rod cools.']) +
     explorer(4, bSliders()) + col(blk('c3', c3HTML)) +
 
     sec('sec-wiggly', '5', 'A Wiggly Start', '') +
